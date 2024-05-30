@@ -3,7 +3,6 @@ const router = new Router();
 
 const { check } = require("express-validator");
 
-const isAuth = require("../middleware/is-auth");
 const role = require("../middleware/role");
 
 const { registration, login, getUsers } = require("../controllers/auth");
